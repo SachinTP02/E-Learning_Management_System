@@ -1,0 +1,98 @@
+body {
+  background-color: #4d51aa;
+  padding: 40px 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 375px;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 1px 2px 2px #333;
+}
+/* HEADER */
+header {
+  background-image: linear-gradient(to left, #4d51aa, #1e2292);
+  background-color:#1e2292; 
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h2 {
+  color: #fff;
+  font-weight: 700;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header .fa {
+  padding: 20px;
+  color: #fff;
+  font-size: 1.5em;
+}
+
+/* CONTENT */
+.content {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+/* USER IMG */
+.user-img {
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+
+.user-img img {
+  border-radius: 50%;
+}
+
+.user-img h3 {
+  font-size: 1.5em;
+  color: #1e2292;
+  font-weight: 700;
+}
+
+.user-img .badge {
+  position: absolute;
+  top: 20px;
+  right: 130px;
+}
+
+.user-img .badge .fa {
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #1e2292;
+  box-shadow: 1px 2px 2px #333;
+}
+
+/* USER SETTINGS */
+
+.user-settings h4 {
+  color: #a2a2b1;
+  font-weight: 900;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.user-settings li {
+  padding-bottom: 20px;
+}
+
+.user-settings li a{
+  text-decoration: none;
+  color: #313230;
+}
+
+.user-settings li a .fa, .user-settings li a .fab {
+  color: #1e2292;
+  margin-right: 20px;
+}
